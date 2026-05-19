@@ -1,0 +1,18 @@
+[project]
+name = "operacoes-bancarias-api-assincrona"
+version = "0.1.0"
+description = "Desafio - Implementando uma API RESTful assincrona usando FastAPI para gerenciar operacoes bancarias de depositos e saques, vinculadas a contas correntes."
+authors = [
+    {name = "Felipe-Magalhaes-A-Carneiro",email = "felipe.araujo.arq@outlook.com"}
+]
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi",
+    "uvicorn[standard] (>=0.47.0,<0.48.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
