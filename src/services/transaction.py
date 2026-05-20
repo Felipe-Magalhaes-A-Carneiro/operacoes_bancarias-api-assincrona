@@ -5,7 +5,7 @@ from fastapi import HTTPException, status
 
 from app.database import database
 from models.transactions import accounts, transactions
-from schemas.transactions import TransactionIn
+from schemas.transaction import TransactionIn
 
 
 class TransactionService:
