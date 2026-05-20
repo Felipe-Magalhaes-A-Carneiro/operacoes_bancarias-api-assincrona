@@ -1,4 +1,4 @@
 from pydantic import BaseModel
 
-class LoingOut(BaseModel):
+class LoginOut(BaseModel):
     access_token: str
