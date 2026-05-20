@@ -7,3 +7,8 @@ class TransactionOut(BaseModel):
     type: str
     amount: float
     created_at: datetime
+
+class AccountOut(BaseModel):
+    id: int
+    owner: str
+    balance: float
